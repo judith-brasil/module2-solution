@@ -42,6 +42,7 @@ section h2 {
 
 section p {
   padding: 20px;
+  ackground-color: #f2f2f2
 }
 
 @media screen and (min-width: 992px) {
