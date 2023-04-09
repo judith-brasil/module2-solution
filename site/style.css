@@ -1,1 +1,67 @@
-body {background-color: red;}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  border: 1px solid #000;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+section h2 {
+  background-color: #000;
+  color: #fff;
+  font-size: 125%;
+  left: auto;
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+
+section p {
+  padding: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section {
+    width: 50%;
+  }
+  
+  #section3 {
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  section {
+    width: 100%;
+  }
+}
