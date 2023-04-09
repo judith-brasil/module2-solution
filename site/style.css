@@ -32,45 +32,21 @@ section {
   position: relative;
   background-color: #f2f2f2;
   margin-block: 20px;
+  }
+  
 }
-
-/*This is the box where the headline of each menu is written*/
-section1 {
-  background-color: #FFC0CB;
+section h2 {
+  background-color: #000;
   color: #fff;
   font-size: 125%;
   left: auto;
-  margin: 0px;
+  margin: 0;
   padding: 5px;
   position: absolute;
   top: -1px;
   right: -1px;
-}
+  }
 
-/*This is the box where the headline of each menu is written*/
-section2 {
-  background-color: #FF0000;
-  color: #FFFFFF;
-  font-size: 125%;
-  left: auto;
-  margin: 0px;
-  padding: 5px;
-  position: absolute;
-  top: -1px;
-  right: -1px;
-}
-
-/*This is the box where the headline of each menu is written*/
-section3 {
-  background-color: #FFFF00;
-  color: #fff;
-  font-size: 125%;
-  left: auto;
-  margin: 0px;
-  padding: 5px;
-  position: absolute;
-  top: -1px;
-  right: -1px;
 }
 section p {
   padding: 20px;
