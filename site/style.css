@@ -31,7 +31,7 @@ section {
   margin-bottom: 20px;
   position: relative;
   background-color: #f2f2f2;
-  margin: 20px;
+  margin-block: 20px;
 }
 
 /*This is the box where the headline of each menu is written*/
