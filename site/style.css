@@ -35,8 +35,8 @@ section {
 }
 
 /*This is the box where the headline of each menu is written*/
-section h2 {
-  background-color: #000;
+section1 {
+  background-color: #FFC0CB;
   color: #fff;
   font-size: 125%;
   left: auto;
@@ -47,6 +47,31 @@ section h2 {
   right: -1px;
 }
 
+/*This is the box where the headline of each menu is written*/
+section2 {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  font-size: 125%;
+  left: auto;
+  margin: 0px;
+  padding: 5px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+
+/*This is the box where the headline of each menu is written*/
+section3 {
+  background-color: #FFFF00;
+  color: #fff;
+  font-size: 125%;
+  left: auto;
+  margin: 0px;
+  padding: 5px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
 section p {
   padding: 20px;
 }
