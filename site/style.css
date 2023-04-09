@@ -25,11 +25,10 @@ section {
   border: 1px solid #000;
   margin-bottom: 20px;
   position: relative;
-  background-color: #f2f2f2
 }
 
 section h2 {
-  background-color: #f2f2f2
+  background-color: #000;
   color: #fff;
   font-size: 125%;
   left: auto;
@@ -42,7 +41,6 @@ section h2 {
 
 section p {
   padding: 20px;
-  ackground-color: #f2f2f2
 }
 
 @media screen and (min-width: 992px) {
