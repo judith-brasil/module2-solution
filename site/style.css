@@ -1,5 +1,5 @@
 
-*{font-family:"Comic Sans MS", cursive, sans-serif;
+*{font-family: Helvetica Neue, Arial, sans-serif;
   box-sizing: border-box;}
 
   .title-container {
@@ -44,7 +44,7 @@
    #sushi{background-color: #ffff00;}
    
 
-/********** Laptop or PC **********/
+/******** Laptop or PC ********/
 @media (min-width: 992px) {
   .col-lg-4 {
     float: left;
@@ -53,7 +53,7 @@
   }
 }
 
-/********** Tablet **********/
+/******** Tablet ********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6, .col-md-12 {
     float: left;
@@ -67,7 +67,7 @@
   }
 }
 
-/********** Mobile **********/
+/******** Mobile ********/
 @media (max-width: 767px) {.col-sm-12 {
     float: left;
     background-color: white;
